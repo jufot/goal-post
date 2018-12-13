@@ -14,7 +14,7 @@ extension UIView {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange), name: UIResponder.keyboardWillShowNotification, object: nil)
     }
     
-    //Function that animates the frame of the object we bind the keyboard to so that it also moves up with the keyboard
+    //Function that animates the frame of the object we bind to the keyboard; so it will move up with the keyboard
     @objc func keyboardWillChange(_ notification: NSNotification) {
         let duaration = notification.userInfo![UIResponder.keyboardAnimationDurationUserInfoKey] as! Double
         let curve = notification.userInfo![UIResponder.keyboardAnimationCurveUserInfoKey] as! UInt
