@@ -95,20 +95,20 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ljg-fk-WaL">
                                                     <rect key="frame" x="25" y="11" width="293" height="48"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eyw-VB-USD">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eyw-VB-USD">
                                                             <rect key="frame" x="0.0" y="0.0" width="293" height="23.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3a6-U0-nKd">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="56" height="23.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="23.5"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="width" constant="56" id="CRt-PI-gzK"/>
+                                                                        <constraint firstAttribute="width" constant="50" id="H30-Bs-Yd7"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eat salad twice a week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="i6d-au-gm7">
-                                                                    <rect key="frame" x="61" y="0.0" width="232" height="23.5"/>
+                                                                    <rect key="frame" x="55" y="0.0" width="238" height="23.5"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -119,9 +119,9 @@
                                                             <rect key="frame" x="0.0" y="28.5" width="293" height="19.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ih-Rq-Te0">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="35.5" height="19.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="40" height="19.5"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="width" constant="35.5" id="MRz-hC-Jcy"/>
+                                                                        <constraint firstAttribute="width" constant="40" id="MRz-hC-Jcy"/>
                                                                         <constraint firstAttribute="height" constant="19.5" id="kwn-Bh-Q9I"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
@@ -129,7 +129,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short Term" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8P-TD-QIl">
-                                                                    <rect key="frame" x="40.5" y="0.0" width="252.5" height="19.5"/>
+                                                                    <rect key="frame" x="45" y="0.0" width="248" height="19.5"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>

@@ -15,9 +15,9 @@ class GoalCell: UITableViewCell {
     @IBOutlet weak var goalProgressLbl: UILabel!
     
     //Defines the objects in view controller with the objects in the storyboard
-    func configureCell(description: String, type: GoalType, goalProgressAmount: Int) {
-        self.goalDescriptionLbl.text = description
-        self.goalTypeLbl.text = type.rawValue
-        self.goalProgressLbl.text = "\(goalProgressAmount)"
+    func configureCell(goal: Goal) {
+        self.goalDescriptionLbl.text = goal.goalDescription
+        self.goalTypeLbl.text = goal.goalType
+        self.goalProgressLbl.text = String(describing: goal.goalProgress)
     }
 }
